@@ -11,6 +11,8 @@ helloSpeaker.speak = speak(name) {
   console.log(speakWord + " " + name);
 }
 
+window.helloSpeaker = helloSpeaker;
+
 // DO NOT attach the speakWord variable to the 'helloSpeaker' object.
 
 // STEP 4: Rewrite the 'speak' function such that it is attached to the
